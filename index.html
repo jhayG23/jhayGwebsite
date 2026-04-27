@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jayrold Gabriola | Virtual Assistant</title>
@@ -9,7 +10,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0f172a;
+    background: #020617;
     color: #f1f5f9;
 }
 
@@ -43,12 +44,18 @@ p {
 .btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 15px 25px;
-    background: #38bdf8;
-    color: #0f172a;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #38bdf8, #6366f1);
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .section {
@@ -58,8 +65,13 @@ p {
 .card {
     background: #1e293b;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 15px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 ul {
